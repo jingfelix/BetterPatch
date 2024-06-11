@@ -1,4 +1,4 @@
-# BetterPatch README
+# BetterPatch
 
 BetterPatch is a Visual Studio Code extension designed to enhance the display of diff format files.
 

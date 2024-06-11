@@ -3,11 +3,17 @@
   "displayName": "BetterPatch",
   "description": "Better Patch Viewing Experience",
   "version": "0.0.1",
+  "publisher": "FelixJing",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jingfelix/BetterPatch"
+  },
+  "icon": "assets/patch.png",
   "engines": {
     "vscode": "^1.90.0"
   },
   "categories": [
-    "Other"
+    "Programming Languages"
   ],
   "main": "./out/extension.js",
   "contributes": {
