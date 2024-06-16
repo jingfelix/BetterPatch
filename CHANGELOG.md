@@ -12,3 +12,13 @@
 
 - Add diff-level outlining
 - Add diff-level folding
+
+## [0.0.3] - 2024-06-16
+
+### Added
+
+- Add vscode-diff-lang-colorizer as a dependency
+
+### Changed
+
+- Change the symbol of diff-level outlining
