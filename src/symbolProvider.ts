@@ -15,8 +15,8 @@ export class PatchDocumentSymbolProvider implements vscode.DocumentSymbolProvide
                 // Create a new diff symbol
                 diffSymbol = new vscode.DocumentSymbol(
                     line.text,
-                    '',
-                    vscode.SymbolKind.File,
+                    line.text,
+                    vscode.SymbolKind.Class,
                     new vscode.Range(i, 0, i, line.text.length),
                     new vscode.Range(i, 0, i, line.text.length)
                 );
@@ -25,7 +25,7 @@ export class PatchDocumentSymbolProvider implements vscode.DocumentSymbolProvide
                 // Create a hunk symbol as a child of the current diff symbol
                 const hunkSymbol = new vscode.DocumentSymbol(
                     line.text,
-                    '',
+                    line.text,
                     vscode.SymbolKind.Method,
                     new vscode.Range(i, 0, i, line.text.length),
                     new vscode.Range(i, 0, i, line.text.length)

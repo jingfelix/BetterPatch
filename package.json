@@ -8,7 +8,7 @@
     "type": "git",
     "url": "https://github.com/jingfelix/BetterPatch"
   },
-  "icon": "assets/patch.png",
+  "icon": "static/patch.png",
   "engines": {
     "vscode": "^1.90.0"
   },
@@ -16,6 +16,9 @@
     "Programming Languages"
   ],
   "main": "./out/extension.js",
+  "extensionDependencies": [
+    "baincd.diff-lang-colorizer"
+  ],
   "contributes": {
     "languages": [
       {
