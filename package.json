@@ -2,13 +2,13 @@
   "name": "betterpatch",
   "displayName": "BetterPatch",
   "description": "Better Patch Viewing Experience",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "FelixJing",
   "repository": {
     "type": "git",
     "url": "https://github.com/jingfelix/BetterPatch"
   },
-  "icon": "static/patch.png",
+  "icon": "assets/patch.png",
   "engines": {
     "vscode": "^1.90.0"
   },

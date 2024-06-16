@@ -1,7 +1,7 @@
 # BetterPatch
 
 [![VSCode](https://img.shields.io/badge/Install_on-VS_Code-blue)](vscode:extension/FelixJing.betterpatch)
-![version](https://img.shields.io/badge/version-0.0.2-green)
+![version](https://img.shields.io/badge/version-0.0.3-green)
 
 BetterPatch is a Visual Studio Code extension designed to enhance the display of diff format files.
 
@@ -38,3 +38,9 @@ Initial release of BetterPatch
 Add diff-level outlining
 
 Add diff-level folding
+
+### 0.0.3
+
+Change the symbol of diff-level outlining
+
+Add vscode-diff-lang-colorizer as a dependency
