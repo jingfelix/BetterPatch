@@ -2,7 +2,7 @@
   "name": "betterpatch",
   "displayName": "BetterPatch",
   "description": "Better Patch Viewing Experience",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "FelixJing",
   "repository": {
     "type": "git",
@@ -33,6 +33,14 @@
         ]
       }
     ],
+    "commands": [
+      {
+        "command": "betterpatch.previewDiff",
+        "title": "Preview Diff",
+        "category": "BetterPatch",
+        "icon": "$(diff)"
+      }
+    ],
     "foldingRange": [
       {
         "language": "diff",
@@ -44,7 +52,16 @@
         "language": "diff",
         "scheme": "file"
       }
-    ]
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "betterpatch.previewDiff",
+          "when": "resourceExtname =~ /\\.(diff|patch)$/",
+          "group": "navigation@100"
+        }
+      ]
+    }
   },
   "activationEvents": [
     "onLanguage:diff"
